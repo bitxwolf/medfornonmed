@@ -1,0 +1,4 @@
+module HoloMedMetal {
+    header "ShaderTypes.h"
+    export *
+}

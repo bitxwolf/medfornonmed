@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "name": "HoloMed 3D Anatomical Scene Registry",
+  "structures": [
+    {
+      "fma_id": "FMA_7088",
+      "mesh_node_name": "Heart_Body",
+      "common_name": "Heart",
+      "latin_name": "Cor",
+      "organ_system": "cardiovascular",
+      "centroid": [0.0, -0.05, 0.04],
+      "bounding_radius": 0.28,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Primary muscular pump responsible for maintaining systemic and pulmonary circulation."
+    },
+    {
+      "fma_id": "FMA_7096",
+      "mesh_node_name": "Right_Atrium",
+      "common_name": "Right Atrium",
+      "latin_name": "Atrium dextrum cordis",
+      "organ_system": "cardiovascular",
+      "centroid": [0.14, 0.10, 0.08],
+      "bounding_radius": 0.11,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Receives deoxygenated systemic venous return from superior and inferior vena cava."
+    },
+    {
+      "fma_id": "FMA_7098",
+      "mesh_node_name": "Right_Ventricle",
+      "common_name": "Right Ventricle",
+      "latin_name": "Ventriculus dexter cordis",
+      "organ_system": "cardiovascular",
+      "centroid": [0.06, -0.14, 0.10],
+      "bounding_radius": 0.15,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Pumps deoxygenated blood into the low-resistance pulmonary circulation via pulmonary trunk."
+    },
+    {
+      "fma_id": "FMA_7099",
+      "mesh_node_name": "Left_Atrium",
+      "common_name": "Left Atrium",
+      "latin_name": "Atrium sinistrum cordis",
+      "organ_system": "cardiovascular",
+      "centroid": [-0.06, 0.08, -0.08],
+      "bounding_radius": 0.10,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Receives oxygenated blood from bilateral pulmonary veins."
+    },
+    {
+      "fma_id": "FMA_7097",
+      "mesh_node_name": "Left_Ventricle",
+      "common_name": "Left Ventricle",
+      "latin_name": "Ventriculus sinister cordis",
+      "organ_system": "cardiovascular",
+      "centroid": [-0.08, -0.16, 0.04],
+      "bounding_radius": 0.18,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Thick-walled muscular pump generating systemic arterial blood pressure."
+    },
+    {
+      "fma_id": "FMA_7101",
+      "mesh_node_name": "LAD_Coronary_Artery",
+      "common_name": "Left Anterior Descending Coronary Artery",
+      "latin_name": "Ramus interventricularis anterior arteriae coronariae sinistrae",
+      "organ_system": "cardiovascular",
+      "centroid": [-0.05, -0.02, 0.16],
+      "bounding_radius": 0.14,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Supplies anterior two-thirds of interventricular septum and left ventricular apex; primary vessel involved in anterior MI."
+    },
+    {
+      "fma_id": "FMA_7100",
+      "mesh_node_name": "RCA_Coronary_Artery",
+      "common_name": "Right Coronary Artery",
+      "latin_name": "Arteria coronaria dextra",
+      "organ_system": "cardiovascular",
+      "centroid": [0.10, -0.04, 0.08],
+      "bounding_radius": 0.15,
+      "head_to_toe_rank": 4,
+      "toe_to_head_rank": 9,
+      "description": "Originates from right aortic sinus and supplies right ventricle, sinoatrial node, and inferior LV wall."
+    },
+    {
+      "fma_id": "FMA_3734",
+      "mesh_node_name": "Aorta_Ascending_Arch",
+      "common_name": "Ascending Aorta and Arch",
+      "latin_name": "Aorta ascendens et arcus aortae",
+      "organ_system": "cardiovascular",
+      "centroid": [0.0, 0.22, -0.05],
+      "bounding_radius": 0.24,
+      "head_to_toe_rank": 3,
+      "toe_to_head_rank": 10,
+      "description": "Main arterial trunk carrying oxygenated blood from left ventricle to systemic branches."
+    },
+    {
+      "fma_id": "FMA_7309",
+      "mesh_node_name": "Right_Lung",
+      "common_name": "Right Lung",
+      "latin_name": "Pulmo dexter",
+      "organ_system": "respiratory",
+      "centroid": [0.44, 0.04, -0.04],
+      "bounding_radius": 0.38,
+      "head_to_toe_rank": 3,
+      "toe_to_head_rank": 10,
+      "description": "Trilobed lung organ responsible for gas exchange, alveolar diffusion, and oxygenation of erythrocytes."
+    },
+    {
+      "fma_id": "FMA_7310",
+      "mesh_node_name": "Left_Lung",
+      "common_name": "Left Lung",
+      "latin_name": "Pulmo sinister",
+      "organ_system": "respiratory",
+      "centroid": [-0.42, 0.02, -0.04],
+      "bounding_radius": 0.35,
+      "head_to_toe_rank": 3,
+      "toe_to_head_rank": 10,
+      "description": "Bilobed lung organ with cardiac notch providing pulmonary capillary gas exchange."
+    },
+    {
+      "fma_id": "FMA_7480",
+      "mesh_node_name": "Ribcage_Sternum",
+      "common_name": "Thoracic Ribcage and Sternum",
+      "latin_name": "Cavea thoracis et sternum",
+      "organ_system": "skeletal",
+      "centroid": [0.0, 0.0, 0.30],
+      "bounding_radius": 0.60,
+      "head_to_toe_rank": 3,
+      "toe_to_head_rank": 10,
+      "description": "Bony and cartilaginous thoracic cage protecting mediastinal organs; acts as superficial occluder."
+    }
+  ]
+}

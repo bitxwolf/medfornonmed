@@ -1,0 +1,22 @@
+# SwiftPM
+.build/
+Packages/
+Package.pins
+.swiftpm/
+
+# Xcode / Apple
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# xtool and build artifacts
+.xtool/
+build/
+dist/

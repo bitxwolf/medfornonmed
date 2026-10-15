@@ -1,0 +1,6 @@
+version: 1
+bundleID: org.holomed.HoloMed3D
+appName: HoloMed 3D
+infoPath: Info.plist
+entitlementsPath: Entitlements.plist
+minIOSVersion: "17.0"
